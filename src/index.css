@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-cyan-100;
+}
+
+.neon-text {
+  color: #7efcff;
+  text-shadow: 0 0 8px rgba(126,252,255,0.4),
+    0 0 16px rgba(126,252,255,0.25),
+    0 0 28px rgba(124,58,237,0.15);
+}
